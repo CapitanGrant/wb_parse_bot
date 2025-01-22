@@ -60,11 +60,7 @@
    docker compose up -d
    ```
 
-5. Запустите приложение с Uvicorn:
 
-   ```bash
-   uvicorn app.main:app --reload
-   ```
 
 ## Миграции базы данных
 
