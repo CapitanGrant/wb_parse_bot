@@ -1,0 +1,12 @@
+aiogram==3.15.0
+loguru==0.7.2
+pydantic-settings==2.7.0
+SQLAlchemy==2.0.35
+pydantic
+alembic==1.14.0
+fastapi[all]==0.115.0
+python-dotenv~=1.0.1
+pydantic==2.9.2
+apscheduler==3.11.0
+requests==2.32.3
+urllib3==2.3.0
