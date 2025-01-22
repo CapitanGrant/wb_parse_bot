@@ -47,7 +47,7 @@
    DB_HOST=localhost
    DB_PORT=5433
    DB_NAME=postgres_db
-   API_TOKEN=7089369594:AAGlI-D0GaybRs1Zf8cXGWTiMuJXpDRA5jE
+   API_TOKEN=ваш тг токен
    TG_HOST=0.0.0.0
    TG_PORT=80
    BASE_URL=ваш url ngrok
