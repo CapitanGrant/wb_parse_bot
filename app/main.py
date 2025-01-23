@@ -37,7 +37,7 @@ async def get_products(request: SProductArtikul, session: AsyncSession = Transac
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {e}")
 
 
-@app.get("/api/v1/subscribe/{artikul}")
+@app.get("/api/v1/subscribe/{artikul}", summary='Подписка на товар по артикулу')
 async def subscribe_artikul(artikul: int, session: AsyncSession = TransactionSessionDep):
     job_id = f"channel_{artikul}"
     if scheduler.get_job(job_id):
