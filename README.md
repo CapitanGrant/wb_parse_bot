@@ -118,3 +118,7 @@ target_metadata = Base.metadata
    cd bot
    run main.py
    ```
+8. Для чтения документации перейдите по ссылке
+   ```браузер
+   http://127.0.0.1:8000/docs#/
+   ```
